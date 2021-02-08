@@ -8,7 +8,7 @@ So to start, we'll need to get a copy of your DSDT from your firmware. The easie
   * Supports both Windows and Linux for DSDT dumping
   * `8. Dump DSDT - Automatically dump the system DSDT`
 * [acpidump.exe](https://acpica.org/downloads/binary-tools)
-  * In command prompt run `path/to/acpidump.exe -b -n DSDT -z`, this will dump your DSDT as a .dat file. Rename this to DSDT.aml
+  * In command prompt run `path/to/acpidump.exe -b -n DSDT -z`, this will dump your DSDT as a .dat file. Rename this to DSDT.aml -(noob .. where tho ?) 
   
 * Do note that all ACPI patches from clover/OpenCore will be applied to the DSDT with the above 2 methods
   
